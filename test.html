@@ -58,7 +58,7 @@
      <p>This is <span style = "color:blue;font-size:25px;">Blue</span> and this is
          <span style = "color:red">red</span></p> 
         <div> Hello </div> <div> Hello </div> 
-       <span> Hello </span> <span> Hello </span> 
+       <span> Hello </span> <span> Hello </span><br> 
         <table>
          <tr>
             <th>Name</th>
@@ -71,7 +71,7 @@
          <tr>
             <td>DamuKrishnan</td>
             <td>29</td>
-         </tr>
+         </tr><br>
       </table>
       <table border = "1">
          <tr>
@@ -91,6 +91,175 @@
          <tr>
             <td colspan = "3">Row 3 Cell 1</td>
          </tr>
-      </table>
+      </table><br>
+      <iframe src="http://www.example.com"></iframe><br>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/H14bBuluwB8"></iframe>
+      <p> <h1>Hello World</h1> </p>
+      <form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+  <form>
+         <input type = "radio" name = "subject" value = "frontend"> Frontend
+         <input type = "radio" name = "subject" value = "backend"> Backend
+      </form>
+     <form>
+         <p>Click Submit</p>
+        <input type = "submit" name = "submit" value = "Submit" />
+         <input type = "reset" name = "reset"  value = "Reset" />
+      </form> 
+     <form action = "" method = "get">
+         Comment: 
+         <br />
+         <textarea rows = "5" cols = "50" name = "description"></textarea>
+         <input type = "submit" value = "submit" />
+      </form><br> 
+      <form>
+  <label for="fname">FirstName</label>
+  <input type="text" id="fname" name="firstname" value="">
+  <label for="lname">LastName</label>
+  <input type="text" id="lname" name="lastname" value="">
+ </form> <br>
+ <form action="/action_page.php">
+  <fieldset>
+    <legend>Employee Details</legend>
+    <label for="Ename">Employee name:</label><br>
+    <input type="text" id="Ename" name="Ename" value=""><br>
+    <label for="Dname">Designation:</label><br>
+    <input type="text" id="Dname" name="Dname" value=""><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form><br>
+<form action="/action_page.php">
+  <label for="fruits">Choose a fruit:</label>
+  <select id="fruits" name="fruits">
+    <option value="apple">Apple</option>
+    <option value="pineapple">Pineapple</option>
+    <option value="grapes">Grapes</option>
+    <option value="orange">Orange</option>
+  </select>
+</form><br>
+<button type="button" onclick="alert('Hello World!')">Click Here</button>
+<form action="/action_page.php">
+  <label for="sname">Student name:</label>
+  <input type="text" id="sname" name="sname">
+  <label for="cname">College name:</label>
+  <input type="text" id="cname" name="cname">
+  <input type="submit" value="Submit">
+</form>br<form action="/action_page.php">
+  <label for="email">Email Address</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd"><br><br>
+  <input type="submit" value="Submit">
+</form><br>
+Pick your Favorite color:
+   <input type="color" name="upclick" value="#a52a2a"><br><br>
+   Date  of Birth:
+    <input type="date" name="Startdate"><br><br>
+    <label>Upload Resume Here:</label>  
+    <input type="file" name="newfile"><br><br>
+    <label>Enter Passout Month-year: </label>  
+    <input type="month" name="newMonth"><br><br>
+  <label>Quantity (between 1 and 5):</label>
+  <input type="number" name="quantity" min="1" max="5"><br>
+  <label>Enter your demo website URL: </label>  
+    <input type="url" name="website"  placeholder="http://example.com"><br><br>
+      <label>Select your prefered week & time for Exam</label> 
+    <input type="week" name="bestweek"> 
+    <input type="time" name="bestweek"><br><br>  
+
+ <form action="/action_page.php">
+         <label for="mailid">Search Mail Address:</label>
+         <input type="search" id="mailid" name="mailid">
+         <input type="submit">
+    </form>
+    <form action="/action_page.php">
+       <label for="phone">Enter Your Phone Number:</label><br><br>
+       <input type="tel" id="phone" name="phone" placeholder="123-45-678" required><br><br>
+       <input type="submit">
+  </form>
+  <!-- checked attribute -->
+<form action="/action_page.php">
+  <input type="radio" name="tech" value="eng" checked>Engineering   
+  <input type="radio" name="tech" value="deg">Degree<br><br>
+   <input type="checkbox" name="sport1" value="ckt">Cricket
+   <input type="checkbox" name="sport2" value="fbl" checked>Football<br><br> 
+</form>
+<!-- disabled attribute -->
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Mash" disabled><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Stack"><br><br>
+  <input type="submit" value="Submit">
+</form>
+<!-- max and min attribute -->
+<form action="/action_page.php"> 
+  <label for="num">Choose a number between 1 to 10</label>
+  <input type="number" id="num" name="num" min="1" max="10"><br><br>
+  <input type="submit" value="Submit">
+</form>
+<!-- maxlength attribute -->
+<form action="/action_page.php">
+  <label for="phno">Enter Phone Number::</label><br>
+  <input type="text" id="phno" name="phno" maxlength="10" size="10"><br><br>
+  <input type="submit" value="Submit">
+</form>
+<!-- pattern attribute -->
+<form action="/action_page.php">
+  <label for="country_code">Country code:</label>
+  <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+  <input type="submit" value="Submit">
+</form>
+<!-- readonly attribute -->
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Rama" readonly><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Chandran"><br><br>
+  <input type="submit" value="Submit">
+</form>
+<!-- required attribute -->
+<form action="/action_page.php">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  <input type="submit" value="Submit"><br>
+  </form>
+  <!-- size attribute -->
+  <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" size="50"><br>
+</form>
+<!-- step attribute -->
+<form action="/action_page.php">
+  <label for="points">Points:</label>
+  <input type="number" id="points" name="points" step="3">
+  <input type="submit" value="Submit">
+</form>
+<!-- value attribute -->
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Jay"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Krishna"><br><br>
+  <input type="submit" value="Submit">
+</form>
+<!-- Autofocus attribute -->
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Jay"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Krishna" autofocus><br><br>
+  <input type="submit" value="Submit">
+</form>
+<!-- placeholder attribute -->
+<form action="/action_page.php">
+  <label for="phone">Name:</label>
+  <input type="text" id="name" name="name" placeholder="please enter your nane"><br><br>
+  <input type="submit" value="Submit">
+</form>
 </body>
 </html>
